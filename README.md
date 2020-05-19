@@ -1,4 +1,10 @@
-#Java Examples#
+# Java Examples
+
+**IDE:**  
+https://sandbox.cs50.io
+
+**run:**  
+``` java filename.java  ```
 
 References
 -
