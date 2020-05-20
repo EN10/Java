@@ -1,5 +1,5 @@
 import java.io.*;
-class FileWrite{
+class fileWrite{
 
     public static void main(String args[])throws IOException{
             FileWriter out = new FileWriter("file.txt");
