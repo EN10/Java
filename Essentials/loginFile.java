@@ -1,4 +1,3 @@
-// Enio's Code
 import java.io.*;   // imports File & FileWriter 
 import java.util.*; // imports Scanner
 
@@ -22,7 +21,7 @@ class loginFile{
                     String newPassword = System.console().readLine();
 
                     FileWriter fw = new FileWriter("password.txt");
-                    fw.write(newPassword);
+                    fw.write(newPassword);      // Should be hashed!
                     fw.close();
                     System.out.println("Password Updated!");
                 }
